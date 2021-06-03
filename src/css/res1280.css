@@ -1,0 +1,49 @@
+
+@media only screen and (max-width: 949px) and (min-width: 550px), only screen and (max-width: 1449px) and (min-width: 950px), only screen and (min-width: 1450px){
+.our-story-card {
+    padding: 70px 45px;
+}
+}
+
+@media only screen and (max-width:360px)
+{
+.header-content h1{
+    font-size: small;
+}
+
+.header-content{
+    width:100%;
+    position:relative;
+    margin:2 auto 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    z-index: 1;
+}
+}
+/* next to each other we can use inline block w fel media queries twali block, with inline block we can use vertical-align property ... last item nomclasse:last-of-type */
+ @media screen and (max-width:600px){} /* devices like mobile phones */
+
+ @media screen and (min-width:600px){} /*large screen mobiles and tablets in portrait mode*/
+@media screen and (min-width:768px){}/*tablets in landscape mode*/
+@media screen and (min-width:992px){}/* desktops laptops*/
+@media screen and (min-width:1200px){}/*large desk and lap */
+
+
+/* Media Queries: Tablet Landscape */
+
+
+/*@media only screen and (max-width: 949px) and (min-width: 550px), only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px)
+ .animation-card-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+@media only screen and (max-width: 949px) and (min-width: 550px), only screen and (max-width: 1449px) and (min-width: 950px), only screen and (min-width: 1450px)
+.our-story-card {
+    padding: 70px 45px;
+}
+*/
